@@ -10,3 +10,8 @@ The centre of the robot which is the "base_link".
 
 Side View:
 ![Screenshot from 2023-02-27 21-14-38](https://user-images.githubusercontent.com/97457075/221673697-7cae1bd6-102d-47cf-85dd-04da080cab99.png)
+
+The joint state publisher node must be launched/be active when launching the robot in rviz2.
+```
+  ros2 run joint_state_publisher_gui joint_state_publisher_gui
+```
