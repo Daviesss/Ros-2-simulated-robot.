@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+
+ <!-- Setting the meshes colour  -->
+<!-- white -->
+ <material name="white">
+    <color rgba="1 1 1 1" />
+ </material>
+
+ <!-- orange -->
+ <material name="orange">
+    <color rgba="1 0.3 0.1 1" />
+ </material>
+
+ <!-- blue -->
+ <material name="blue">
+    <color rgba="0.2 0.2 1 1" />
+ </material>
+ 
+ <!-- black -->
+ <material name="black">
+    <color rgba="0 0 0 1" />
+ </material>
+
+<!-- The link to the centre of the robot (called it "base_link") -->
+<link name="base_link">
+
+</link>
+
+<joint name="chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+<!-- We want the origin of the chassis sitting at the back/centre of the chassis -->
+    <origin xyz="-0.1 0 0"/>
+</joint>
+
+<link name="chassis">
+    <visual>
+        <origin xyz="0.15 0 0.075"/>
+        <geometry>
+            <box size="0.3 0.3 0.15"/>
+        </geometry>
+        <material name="orange"/>
+    </visual>
+</link>
+</robot>

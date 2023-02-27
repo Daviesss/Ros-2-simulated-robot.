@@ -2,7 +2,6 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
 
 
-<!-- Example link -->
-<link name="base_link"></link>
+  <xacro:include filename="robot.xacro"/> 
 
 </robot>
