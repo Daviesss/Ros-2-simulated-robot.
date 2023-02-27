@@ -19,7 +19,7 @@ def generate_launch_description():
 
     # Process the URDF file
     pkg_path = os.path.join(get_package_share_directory('robot')) #Add your package name in here.
-    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro') #Add the location where your .xacro files is located.
+    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro') #Add the location where your .xacro file is located.
     robot_description_config = xacro.process_file(xacro_file)
     
     # Create a robot_state_publisher node
