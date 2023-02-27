@@ -1,7 +1,7 @@
 # Ros-2-simulated-robot.
 A ros 2 simulated robot.
 
-NOTE: You can also use a cad design software(FUSION 360, SOLIDWORKS) to design the robot and export to ROS  and also ROS 2,but this is just a repository that describes how to design a robot manually, by writing .xacro files which are said to be robot meshes.
+NOTE: You can also use a cad design software(FUSION 360, SOLIDWORKS......) to design the robot and export to ROS  and also ROS 2,but this is just a repository that describes how to design a robot manually, by writing .xacro files which are said to be robot meshes.
 
 Fisrt step in building the differential-drive robot:
 
