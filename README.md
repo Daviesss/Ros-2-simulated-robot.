@@ -15,3 +15,4 @@ The joint state publisher node must be launched/be active when launching the rob
 ```
   ros2 run joint_state_publisher_gui joint_state_publisher_gui
 ```
+[Screencast from 02-27-2023 11:49:18 PM.webm](https://user-images.githubusercontent.com/97457075/221705863-6d2f564c-4097-4932-8e82-64d90084fdc4.webm)
