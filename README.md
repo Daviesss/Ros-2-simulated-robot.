@@ -20,6 +20,7 @@ Open Rviz2:
   ros2 run rviz2 rviz2
 ```
 
+Set the fixed frame to "base_link".
 
 The centre of the robot which is the "base_link".
 ![Screenshot from 2023-02-27 21-04-28](https://user-images.githubusercontent.com/97457075/221671549-a60614d6-63c9-412c-a5c9-c64f835dd671.png)
