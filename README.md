@@ -6,8 +6,9 @@ NOTE: You can also use a cad design software(FUSION 360, SOLIDWORKS......) to de
 Fisrt step in building the differential-drive robot:
 
 Launch the Node:
-
-ros2 launch <name_of_package> robot_launch.py
+```
+ros2 launch <name_of_package> robot.launch.py
+```
 
 The centre of the robot which is the "base_link".
 ![Screenshot from 2023-02-27 21-04-28](https://user-images.githubusercontent.com/97457075/221671549-a60614d6-63c9-412c-a5c9-c64f835dd671.png)
