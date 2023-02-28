@@ -33,6 +33,8 @@ Side View:
 Plugins used in simulation of the robot can be gotten from:
 https://classic.gazebosim.org/tutorials?tut=ros_gzplugins
 
-. Launch the robot_state_publisher in simulation mode.
-. Launch Gazebo.
-. Spawn the robot into Gazebo.
+
+STEPS TO TAKE TO GET THE ROBOT UP AND READY:
+1. Launch the robot_state_publisher in simulation mode.
+2. Launch Gazebo.
+3. Spawn the robot into Gazebo.
