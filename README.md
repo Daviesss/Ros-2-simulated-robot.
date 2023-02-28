@@ -30,5 +30,5 @@ Side View:
 
 [Screencast from 02-27-2023 11:49:18 PM.webm](https://user-images.githubusercontent.com/97457075/221705863-6d2f564c-4097-4932-8e82-64d90084fdc4.webm)
 
-Plugins used in simukation of the robot can be gotten from:
+Plugins used in simulation of the robot can be gotten from:
 https://classic.gazebosim.org/tutorials?tut=ros_gzplugins
