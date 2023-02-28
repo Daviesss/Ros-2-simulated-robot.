@@ -38,3 +38,8 @@ STEPS TO TAKE TO GET THE ROBOT UP AND READY:
 1. Launch the robot_state_publisher in simulation mode.
 2. Launch Gazebo.
 3. Spawn the robot into Gazebo.
+
+Set the sim time to true,we dealing with simulation.So our the boolean has to be true.
+```
+   ros2 launch robot robot.launch.py use_sim_time:=true
+```
