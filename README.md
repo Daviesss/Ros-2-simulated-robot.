@@ -92,10 +92,11 @@ Start up Gazebo:
  ```
   You will the see the robot act, like below:
   
-  [Screencast from 03-03-2023 12:35:22 AM.webm](https://user-images.githubusercontent.com/97457075/222589842-6a4229e9-8280-4b51-b3f8-56048d361948.webm)
+  
 
   
-  
+  [Screencast from 03-03-2023 12:43:47 AM.webm](https://user-images.githubusercontent.com/97457075/222590332-fec34d65-4f11-43e1-b4f4-cf45d85dcf75.webm)
+
  
  
  
