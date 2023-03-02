@@ -54,8 +54,10 @@ Start up Gazebo:
  ```
    ros2 launch robot show.robot.launch.py
  ```
- You will see the robot sp![Screenshot from 2023-03-02 22-17-08](https://user-images.githubusercontent.com/97457075/222561038-04a12b53-c1d6-42e7-8cdf-2b6499aefbdf.png)
-awned into gazebo like below:
+ You will see the robot spawned into gazebo like below:
+ 
+ ![Screenshot from 2023-03-02 22-17-08](https://user-images.githubusercontent.com/97457075/222561038-04a12b53-c1d6-42e7-8cdf-2b6499aefbdf.png)
+
  
  
  
