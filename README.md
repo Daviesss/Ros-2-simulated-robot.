@@ -56,3 +56,7 @@ Start up Gazebo:
  ```
  You will see the robot spawned into gazebo like below:
  
+ Check if the topics are available.This list all topics which are available:
+ ```
+   ros2 topic list
+ ```
