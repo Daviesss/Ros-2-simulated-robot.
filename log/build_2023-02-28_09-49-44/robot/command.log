@@ -1,0 +1,6 @@
+Invoking command in '/home/magnum/simuate_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/install/robot
+Invoked command in '/home/magnum/simuate_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/install/robot
+Invoking command in '/home/magnum/simuate_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/build/robot -- -j8 -l8
+Invoked command in '/home/magnum/simuate_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/build/robot -- -j8 -l8
+Invoking command in '/home/magnum/simuate_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/build/robot
+Invoked command in '/home/magnum/simuate_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/build/robot
