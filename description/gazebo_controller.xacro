@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <gazebo>
+       <plugin name="differential_drive_plugin" filename="libgazebo_ros_diff_drive.so">
+       <!-- differential drive wheel plugin  -->
+       <left_joint>left_wheel_joint</left_joint>
+       <right_joint>right_wheel_joint</right_joint>
+       <wheel_separation>0.35</wheel_separation>
+       <wheel_diameter>0.1</wheel_diameter>
+       
+
+       <!-- Limitations of the robot  -->
+       <max_wheel_torque>100</max_wheel_torque>
+       <max_wheel_acceleration>10.0</max_wheel_acceleration>
+
+       <!-- Tells the plugin,what it needs to output. -->
+       <odometry_frame>odom</odometry_frame>
+       <robot_base_frame>base_link</robot_base_frame>
+ 
+       <publish_odom>true</publish_odom>
+       <publish_odom_tf>true</publish_odom_tf>
+       <publish_wheel_tf>true</publish_wheel_tf>
+
+       </plugin>
+    </gazebo>
+
+</robot>

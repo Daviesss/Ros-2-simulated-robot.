@@ -2,6 +2,12 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
     <xacro:include filename="inertial.xacro"/>
+    
+    <!-- <xacro:property name="chasis_color" value="Gazebo/orange"/>
+    <xacro:property name="tyre_color" value="Gazebo/black"/>
+    <xacro:property name="dolly_color" value="Gazebo/black"/>
+    <xacro:property name="wheel_color" value="Gazebo/black"/> --> 
+
 
     <material name="white">
         <color rgba="1 1 1 1" />
@@ -52,6 +58,11 @@
             <origin xyz="0.15 0 0.075" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
+   <!-- Adding colour/fixing the colours to our urdf robot -->
+    <!-- chassis link colour (Adding chassis link colour) -->
+    <gazebo reference="chassis_joint">
+      <material>Gazebo/orange</material>
+    </gazebo>
     
     <!-- LEFT WHEEL OF ROBOT -->
 
@@ -78,6 +89,9 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
+    <gazebo reference="left_wheel">
+      <material>Gazebo/black</material>
+    </gazebo>
 
     <!-- RIGHT WHEEL OF ROBOT -->
 
@@ -104,6 +118,9 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
+     <gazebo reference="right_wheel">
+      <material>Gazebo/black</material>
+    </gazebo>
 
     <!-- DOLLY WHEEEL JOINT -->
 
@@ -118,7 +135,7 @@
         <visual>
             <geometry>
                 <sphere radius="0.05"/>
-            </geometry>
+            </geometry>`
             <material name="black"/>
         </visual>
         <collision>
@@ -130,6 +147,10 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_sphere>
     </link>
+
+     <gazebo reference="dolly_wheel">
+      <material>Gazebo/black</material>
+    </gazebo>
     
     
 </robot>

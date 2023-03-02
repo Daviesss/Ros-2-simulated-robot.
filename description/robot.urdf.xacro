@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
 
-
+  <!-- The robot .xacro file  -->
   <xacro:include filename="robot.xacro"/> 
-  
+  <!-- The gazebo control file  -->
+  <xacro:include filename="gazebo_controller.xacro"/>
 
 </robot>
