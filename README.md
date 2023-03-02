@@ -70,6 +70,8 @@ Start up Gazebo:
  ```
    ros2 run teleop_twist_keyboard  teleop_twist_keyboard
  ```
+ 
+ You can give colour to the robot,by adding colour to the .xacro file.Video decription below,while using the teleop_twist_keyboard to drive the robot.
  [Screencast from 03-02-2023 11:04:45 PM.webm](https://user-images.githubusercontent.com/97457075/222569557-016ae0a3-1b43-441e-ab52-4344ecfc5c50.webm)
 
  
