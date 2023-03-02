@@ -65,3 +65,8 @@ Start up Gazebo:
  ```
    ros2 topic list
  ```
+ Now,we can drive the robot around once we use the teleop_twist_keyboard node to publish to the "/cmd_vel" topic that the robot subscribes to.
+ 
+ ```
+   ros2 run teleop_twist_keyboard  teleop_twist_keyboard
+ ```
