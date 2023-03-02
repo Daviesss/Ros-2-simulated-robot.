@@ -86,7 +86,16 @@ Start up Gazebo:
    ros2 pkg create drive_robot --build-type ament_python --dependencies rclpy
  
  ```
- 
+ Run the node in the pasckage to make the robot drive forward, in linear of x.
+ ```
+   ros2 run drive_robot velocity_drive
+ ```
+  You will the see the robot act, like below:
+  
+  [Screencast from 03-03-2023 12:35:22 AM.webm](https://user-images.githubusercontent.com/97457075/222589842-6a4229e9-8280-4b51-b3f8-56048d361948.webm)
+
+  
+  
  
  
  
