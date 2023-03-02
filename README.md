@@ -75,9 +75,28 @@ Start up Gazebo:
  
  [Screencast from 03-02-2023 11:04:45 PM.webm](https://user-images.githubusercontent.com/97457075/222569557-016ae0a3-1b43-441e-ab52-4344ecfc5c50.webm)
 
+ We can also write a python script that publish certain velocity to make the robot move and also perform some basic task.
+ Create a ROS 2 package called drive_robot ,its dependecies on rclpy,the package should be created in the src directory of your workspace.
  
+ ```
+   cd src
+ ```
  
+ ```
+   ros2 pkg create drive_robot --build-type ament_python --dependencies rclpy
  
+ ```
+ Run the node in the pasckage to make the robot drive forward, in linear of x.
+ ```
+   ros2 run drive_robot velocity_drive
+ ```
+  You will the see the robot act, like below:
+  
+  
+
+  
+  [Screencast from 03-03-2023 12:43:47 AM.webm](https://user-images.githubusercontent.com/97457075/222590332-fec34d65-4f11-43e1-b4f4-cf45d85dcf75.webm)
+
  
  
  
