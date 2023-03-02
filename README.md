@@ -75,7 +75,7 @@ Start up Gazebo:
  
  [Screencast from 03-02-2023 11:04:45 PM.webm](https://user-images.githubusercontent.com/97457075/222569557-016ae0a3-1b43-441e-ab52-4344ecfc5c50.webm)
 
- We can also write a python script that publish certain velocity to make the robot moves and also perform some basic task.
+ We can also write a python script that publish certain velocity to make the robot move and also perform some basic task.
  Create a ROS 2 package called drive_robot ,its dependecies on rclpy,the package should be created in the src directory of your workspace.
  
  ```
