@@ -98,6 +98,9 @@ Start up Gazebo:
   [Screencast from 03-03-2023 12:43:47 AM.webm](https://user-images.githubusercontent.com/97457075/222590332-fec34d65-4f11-43e1-b4f4-cf45d85dcf75.webm)
 
  
- 
- 
+ # LAUNCHING SAVED GAZEBO WORLD WITH ROBOT SPAWNED IN IT.
+ ```
+    ros2 launch robot show.robot.launch.py world:='path to where you saved your Gazebo world'
+ ```
+
  
