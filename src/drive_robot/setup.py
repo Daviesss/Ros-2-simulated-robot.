@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'velocity_drive=drive_robot.move_robot:main'
+        'velocity_drive=drive_robot.move_robot:main',
         ],
     },
 )

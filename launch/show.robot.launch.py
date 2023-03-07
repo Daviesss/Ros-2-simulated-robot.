@@ -8,7 +8,7 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 from launch_ros.actions import Node
-
+# from launch.actions import ExecuteProcess
 
 
 def generate_launch_description():
@@ -36,6 +36,11 @@ def generate_launch_description():
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'my_bot'],
                         output='screen')
+    
+    # set_contoller_manager_use_sim_time = ExecuteProcess(
+    #     cmd=['ros2', 'param', 'set', '/controller_manager', 'use_sim_time', 'true'],
+    #     output='screen')
+
 
     
 
@@ -45,4 +50,5 @@ def generate_launch_description():
         show,
         gazebo,
         spawn_entity,
+        # set_contoller_manager_use_sim_time,
     ])
