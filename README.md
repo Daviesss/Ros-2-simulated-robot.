@@ -102,5 +102,7 @@ Start up Gazebo:
  ```
     ros2 launch robot show.robot.launch.py world:='path to where you saved your Gazebo world'
  ```
+ ![Screenshot from 2023-03-07 16-57-01](https://user-images.githubusercontent.com/97457075/223492102-4b27dd07-a5f6-4b56-91f1-b20b52a065ba.png)
+
 
  
