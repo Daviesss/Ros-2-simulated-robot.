@@ -7,7 +7,7 @@ Fisrt step in building the differential-drive robot:
 
 Launch the Node:
 ```
-ros2 launch <name_of_package> robot.launch.py
+  ros2 launch <name_of_package> robot.launch.py
 ```
 
 The joint state publisher node must be launched/be active when launching the robot in rviz2.
