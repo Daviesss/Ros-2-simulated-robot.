@@ -23,12 +23,6 @@ Open Rviz2:
 Set the fixed frame to "base_link".
 
 The centre of the robot which is the "base_link".
-![Screenshot from 2023-02-27 21-04-28](https://user-images.githubusercontent.com/97457075/221671549-a60614d6-63c9-412c-a5c9-c64f835dd671.png)
-
-Side View:
-![Screenshot from 2023-02-27 21-14-38](https://user-images.githubusercontent.com/97457075/221673697-7cae1bd6-102d-47cf-85dd-04da080cab99.png)
-
-[Screencast from 02-27-2023 11:49:18 PM.webm](https://user-images.githubusercontent.com/97457075/221705863-6d2f564c-4097-4932-8e82-64d90084fdc4.webm)
 
 Plugins used in simulation of the robot can be gotten from:
 https://classic.gazebosim.org/tutorials?tut=ros_gzplugins
@@ -54,13 +48,6 @@ Start up Gazebo:
  ```
    ros2 launch robot show.robot.launch.py
  ```
- You will see the robot spawned into gazebo like below:
- 
- ![Screenshot from 2023-03-02 22-17-08](https://user-images.githubusercontent.com/97457075/222561038-04a12b53-c1d6-42e7-8cdf-2b6499aefbdf.png)
-
- 
- 
- 
  Check if the topics are available.This list all topics which are available:
  ```
    ros2 topic list
@@ -73,16 +60,6 @@ Start up Gazebo:
  
  You can give colour to the robot,by adding colour to the .xacro file.Video decription below,while using the teleop_twist_keyboard to drive the robot.
  
- [Screencast from 03-02-2023 11:04:45 PM.webm](https://user-images.githubusercontent.com/97457075/222569557-016ae0a3-1b43-441e-ab52-4344ecfc5c50.webm)
- 
- Addinng a lidar sensor:
- [Screencast from 03-07-2023 08:58:02 PM.webm](https://user-images.githubusercontent.com/97457075/223538992-d2d897b3-c436-40bc-8989-4de39ececbb7.webm)
-
-
- 
- 
- 
-
  We can also write a python script that publish certain velocity to make the robot move and also perform some basic task.
  Create a ROS 2 package called drive_robot ,its dependecies on rclpy,the package should be created in the src directory of your workspace.
  
@@ -98,35 +75,19 @@ Start up Gazebo:
  ```
    ros2 run drive_robot velocity_drive
  ```
-  You will the see the robot act, like below:
-  
-  
 
-  
-  [Screencast from 03-03-2023 12:43:47 AM.webm](https://user-images.githubusercontent.com/97457075/222590332-fec34d65-4f11-43e1-b4f4-cf45d85dcf75.webm)
-
- 
- # LAUNCHING SAVED GAZEBO WORLD WITH ROBOT SPAWNED IN IT.
+# LAUNCHING SAVED GAZEBO WORLD WITH ROBOT SPAWNED IN IT.
  ```
     ros2 launch robot show.robot.launch.py world:='path to where you saved your Gazebo world'
  ```
  ![Screenshot from 2023-03-07 16-57-01](https://user-images.githubusercontent.com/97457075/223492102-4b27dd07-a5f6-4b56-91f1-b20b52a065ba.png)
 ![Screenshot from 2023-03-07 17-02-44](https://user-images.githubusercontent.com/97457075/223492458-2b3d6ffe-db92-44e4-8a41-42573fa984d6.png)
 
-Adding the Lidar sensor to our robot:
-
-![Screenshot from 2023-03-08 14-28-39](https://user-images.githubusercontent.com/97457075/223725702-0c050d71-faee-4a0f-8428-b88055e3e58a.png)
-
-VISUALIZING DATA ON RVIZ2.
-
-![Screenshot from 2023-03-08 14-35-28](https://user-images.githubusercontent.com/97457075/223726920-fe5fa6e6-35f7-47d8-80e9-8a2492424086.png)
-
 You can check the TF2 TREE:
 ```
   ros2 run rqt_tf_tree rqt_tf_tree
 ```
-You should see:
-![Screenshot from 2023-03-08 14-40-09](https://user-images.githubusercontent.com/97457075/223728111-b4d5e75b-cffc-4fa7-866c-f3bca51dd227.png)
+![Screenshot from 2023-03-08 19-52-28](https://user-images.githubusercontent.com/97457075/223807831-64f8f7f3-c000-4d08-82b0-b4725c639a14.png)
 
 
 
