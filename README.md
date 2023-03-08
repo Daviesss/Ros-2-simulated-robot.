@@ -89,7 +89,14 @@ You can check the TF2 TREE:
 ```
 ![Screenshot from 2023-03-08 19-52-28](https://user-images.githubusercontent.com/97457075/223807831-64f8f7f3-c000-4d08-82b0-b4725c639a14.png)
 
-
-
+# To LAUNCH THE WORLD:
+ 
+```
+   ros2 launch robot show.robot.launch.py world:="path to the .world file"
+```
+Mine is:
+```
+  ros2 launch robot show.robot.launch.py world:=/home/magnum/simuate_ws/src/robot/worlds/new.world
+```
 
  
