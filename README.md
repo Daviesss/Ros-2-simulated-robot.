@@ -60,16 +60,6 @@ Start up Gazebo:
  
  You can give colour to the robot,by adding colour to the .xacro file.Video decription below,while using the teleop_twist_keyboard to drive the robot.
  
- [Screencast from 03-02-2023 11:04:45 PM.webm](https://user-images.githubusercontent.com/97457075/222569557-016ae0a3-1b43-441e-ab52-4344ecfc5c50.webm)
- 
- Addinng a lidar sensor:
- [Screencast from 03-07-2023 08:58:02 PM.webm](https://user-images.githubusercontent.com/97457075/223538992-d2d897b3-c436-40bc-8989-4de39ececbb7.webm)
-
-
- 
- 
- 
-
  We can also write a python script that publish certain velocity to make the robot move and also perform some basic task.
  Create a ROS 2 package called drive_robot ,its dependecies on rclpy,the package should be created in the src directory of your workspace.
  
