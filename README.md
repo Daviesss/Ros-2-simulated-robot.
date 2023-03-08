@@ -121,6 +121,13 @@ VISUALIZING DATA ON RVIZ2.
 
 ![Screenshot from 2023-03-08 14-35-28](https://user-images.githubusercontent.com/97457075/223726920-fe5fa6e6-35f7-47d8-80e9-8a2492424086.png)
 
+You can check the TF2 TREE:
+```
+  ros2 run rqt_tf_tree rqt_tf_tree
+```
+You should see:
+![Screenshot from 2023-03-08 14-40-09](https://user-images.githubusercontent.com/97457075/223728111-b4d5e75b-cffc-4fa7-866c-f3bca51dd227.png)
+
 
 
 
