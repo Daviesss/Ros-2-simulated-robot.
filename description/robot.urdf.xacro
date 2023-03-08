@@ -5,6 +5,8 @@
   <xacro:include filename="robot.xacro"/> 
   <!-- The gazebo control file  -->
   <xacro:include filename="gazebo_controller.xacro"/>
+  <!-- The lidar sensor file  -->
+  <xacro:include filename="lidar_sensor.xacro"/>
 
 </robot>
 

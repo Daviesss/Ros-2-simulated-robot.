@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+   <!-- Two Differential-drive plugin  -->
     <gazebo>
         <plugin name="diff_drive_robot_plugin" filename="libgazebo_ros_diff_drive.so">
 
@@ -29,6 +29,5 @@
 
         </plugin>
     </gazebo>
-
 
 </robot>
