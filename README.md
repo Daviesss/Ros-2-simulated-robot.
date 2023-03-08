@@ -113,6 +113,11 @@ Start up Gazebo:
  ![Screenshot from 2023-03-07 16-57-01](https://user-images.githubusercontent.com/97457075/223492102-4b27dd07-a5f6-4b56-91f1-b20b52a065ba.png)
 ![Screenshot from 2023-03-07 17-02-44](https://user-images.githubusercontent.com/97457075/223492458-2b3d6ffe-db92-44e4-8a41-42573fa984d6.png)
 
+Adding the Lidar sensor to our robot:
+
+![Screenshot from 2023-03-08 14-28-39](https://user-images.githubusercontent.com/97457075/223725702-0c050d71-faee-4a0f-8428-b88055e3e58a.png)
+
+
 
 
  
