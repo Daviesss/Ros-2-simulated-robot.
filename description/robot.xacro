@@ -4,6 +4,7 @@
     <xacro:include filename="inertial.xacro"/>
 
 
+
     <material name="white">
         <color rgba="1 1 1 1" />
     </material>
@@ -41,7 +42,7 @@
             <geometry>
                 <box size="0.3 0.3 0.15"/>
             </geometry>
-            <material name="orange"/>
+            <material name="blue"/>
         </visual>
         <collision>
             <origin xyz="0.15 0 0.075"/>
@@ -56,7 +57,7 @@
    <!-- Adding colour/fixing the colours to our urdf robot -->
     <!-- chassis link colour (Adding chassis link colour) -->
     <gazebo reference="chassis">
-      <material>Gazebo/Orange</material>
+      <material>Gazebo/Blue</material>
     </gazebo>
     
     <!-- LEFT WHEEL OF ROBOT -->

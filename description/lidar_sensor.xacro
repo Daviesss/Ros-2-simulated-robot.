@@ -32,7 +32,7 @@
         </xacro:inertial_cylinder>
     </link>
 
-    We put colour to our lidar here 
+    <!-- We put colour to our lidar here  -->
     <gazebo reference="laser_frame">
     <material>Gazebo/Blue</material>
     </gazebo>
