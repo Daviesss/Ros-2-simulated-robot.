@@ -100,4 +100,14 @@ Mine is:
 ```
 ![Screenshot from 2023-03-08 23-10-51](https://user-images.githubusercontent.com/97457075/223862718-2ca56db5-4b6a-4a9e-a5b2-625d82918a81.png)
 
+# SLAM 
+Run the slam_toolbox node.
+```
+  ros2 launch robot online_async.launch.py 
+```
+[Screencast from 03-09-2023 11:21:33 AM.webm](https://user-images.githubusercontent.com/97457075/224001965-dfaaf7e7-9660-437a-94b4-5b78740142ad.webm)
+
+
+
+
 
