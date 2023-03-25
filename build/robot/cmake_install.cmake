@@ -41,6 +41,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot" TYPE DIRECTORY FILES
     "/home/magnum/simuate_ws/src/robot/launch"
     "/home/magnum/simuate_ws/src/robot/description"
+    "/home/magnum/simuate_ws/src/robot/params"
+    "/home/magnum/simuate_ws/src/robot/maps"
     )
 endif()
 

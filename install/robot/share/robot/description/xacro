@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+<xacro:include filename="inertial.xacro"/>
+
+   <!-- Setting the meshes colour  -->
+   <!-- white -->
+   <material name="white">
+      <color rgba="1 1 1 1" />
+   </material>
+
+   <!-- orange -->
+   <material name="orange">
+      <color rgba="1 0.3 0.1 1" />
+   </material>
+
+   <!-- blue -->
+   <material name="blue">
+      <color rgba="0.2 0.2 1 1" />
+   </material>
+   
+   <!-- black -->
+   <material name="black">
+      <color rgba="0 0 0 1" />
+   </material>
+
+
+
+   <!-- The link to the centre of the robot (called it "base_link") -->
+   <link name="base_link">
+
+   </link>
+
+
+
+   <!-- link to the chassis  -->
+   <joint name="chassis_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="chassis"/>
+   <!-- We want the origin of the chassis sitting at the back/centre of the chassis -->
+      <origin xyz="-0.1 0 0"/>
+   </joint>
+
+   <link name="chassis">
+      <visual>
+         <origin xyz="0.15 0 0.075"/>
+         <geometry>
+               <box size="0.3 0.3 0.15"/>
+         </geometry>
+         <material name="orange"/>
+      </visual>
+      <collusion>
+         <origin xyz="0.15 0 0.075"/>
+         <geometry>
+               <box size="0.3 0.3 0.15"/>
+         </geometry>
+      </collusion>
+      <xacro:inertial_box mass="0.5" x="0.3" y="0.3" z="0.15">
+      <origin xyz="0.15 0 0.075" rpy="0 0 0"/>
+      </xacro:inertial_box>
+   </link>
+
+   <gazebo reference="chassis">
+      <material>Gazebo/orange</material>
+   </gazebo>
+
+   <!-- The left wheel link  -->
+   <joint name="left_wheel_joint" type="continuous">
+   <parent link="base_link"/>
+   <child link="left_wheel"/>
+   <origin xyz="0 0.175 0" rpy="-${pi/2} 0 0"/>
+   <axis xyz="0 0 1"/>
+   </joint>
+
+   <link name="left_wheel">
+   <visual>
+      <geometry>
+         <cylinder radius="0.05" length="0.04"/> 
+      </geometry>
+      <material name="black"/>
+   </visual>
+   <collusion>
+      <geometry>
+         <cylinder radius="0.05" length="0.04"/> 
+      </geometry>
+      <material name="black"/>
+   </collusion>
+   <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   </xacro:inertial_cylinder>
+   </link>
+
+   <gazebo reference="left_wheel">
+      <material>Gazebo/black</material>
+   </gazebo>
+
+
+
+
+   <!-- The right wheel link  -->
+   <joint name="right_wheel_joint" type="continuous">
+   <parent link="base_link"/>
+   <child link="right_wheel"/>
+   <origin xyz="0 -0.175 0" rpy="${pi/2} 0 0"/>
+   <axis xyz="0 0 -1"/>
+   </joint>
+
+   <link name="right_wheel">
+   <visual>
+      <geometry>
+         <cylinder radius="0.05" length="0.04"/> 
+      </geometry>
+      <material name="black"/>
+   </visual>
+   <collusion>
+      <geometry>
+         <cylinder radius="0.05" length="0.04"/> 
+      </geometry>
+   </collusion>
+   <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   </xacro:inertial_cylinder>
+   </link>
+
+   <gazebo reference="right_wheel">
+      <material>Gazebo/black</material>
+   </gazebo>
+
+
+   <!-- dolly wheel link  -->
+   <joint name="dolly_wheel_joint" type="fixed">
+   <parent link="chassis"/>
+   <child link="dolly_wheel"/>
+   <origin xyz="0.24 0 0"/> 
+   </joint> 
+
+   <link name="dolly_wheel">
+   <visual>
+   <geometry>
+      <sphere radius="0.05"/>
+   </geometry>
+   <!-- give it a colour -->
+   <material name="black"/>
+   </visual>
+   <collusion>
+   <geometry>
+      <sphere radius="0.05"/>
+   </geometry>
+   <!-- give it a colour -->
+   <material name="black"/>
+   </collusion>
+   <xacro:inertial_sphere mass="0.1"  radius="0.05">
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   </xacro:inertial_sphere>
+   </link>
+
+   <gazebo reference="dolly_wheel">
+      <material>Gazebo/black</material>
+   </gazebo>
+
+   </robot>

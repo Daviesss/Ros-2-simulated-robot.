@@ -13,7 +13,7 @@ slam_toolbox:
     odom_frame: odom
     map_frame: map
     base_frame: base_link
-    scan_topic: /scan
+    scan_topic: /scan  #set the topic of the depth_camera(/camera/points) if you want to deploy a 3D slam (/scan topic for a 2D lidar).
     mode: mapping #localization
     debug_logging: true
     throttle_scans: 1
