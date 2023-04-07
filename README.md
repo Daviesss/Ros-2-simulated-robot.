@@ -116,6 +116,10 @@ But if you want to use the localization mode (AMCL) you have to specific the pat
 
 -  ros2 launch robot localization.launch.py map:=""   use_sim_time:=true
 
+Navigation Mode(NAV2 stack)
+```
+   ros2 launch  robot nav.launch.py use_sim_time:=true map_subscribe_transient_local:true
+```
   
   
 [Screencast from 03-11-2023 05:26:36 PM.webm](https://user-images.githubusercontent.com/97457075/224503398-5ea5fe0c-618a-463e-9fa6-b0f82840eb19.webm)
