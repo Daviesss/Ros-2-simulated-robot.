@@ -114,7 +114,7 @@ Run the slam_toolbox node.
 ```
 But if you want to use the localization mode (AMCL) you have to specific the path in which your map.yaml file is located and pass it into map:=""
 
--  ros2 launch robot localization.launch.py map:=path_to_map_file.yaml   use_sim_time:=true
+-  ros2 launch robot localization.launch.py map:=""   use_sim_time:=true
 
   
   
