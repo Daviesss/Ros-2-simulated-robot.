@@ -108,6 +108,10 @@ Run the slam_toolbox node.
 [Screencast from 03-09-2023 11:21:33 AM.webm](https://user-images.githubusercontent.com/97457075/224001965-dfaaf7e7-9660-437a-94b4-5b78740142ad.webm)
 
 # AUTONOMOUS NAVIGATION:
+ Localization:
+ ```
+    ros2 launch robot localization.launch.py map:=/home/magnum/simuate_ws/src/robot/maps/offline.yaml  use_sim_time:=true
+```
 [Screencast from 03-11-2023 05:26:36 PM.webm](https://user-images.githubusercontent.com/97457075/224503398-5ea5fe0c-618a-463e-9fa6-b0f82840eb19.webm)
 
 
