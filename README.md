@@ -112,7 +112,7 @@ Run the slam_toolbox node.
  ```
     ros2 launch robot localization.launch.py map:=/home/magnum/simuate_ws/src/robot/maps/offline.yaml  use_sim_time:=true
 ```
-But if you want to use the localization mode (AMCL) you have to specific the path in which your map.yaml file is located and pass it into map:=""
+But if you want to use the localization mode (AMCL) you have to specify the path in which your map.yaml file is located and pass it into map:=""
 
 -  ros2 launch robot localization.launch.py map:=""   use_sim_time:=true
 
