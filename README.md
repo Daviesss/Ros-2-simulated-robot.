@@ -1,3 +1,20 @@
+# CLONE THE PACKAGE INTO THE ROBOT DIRECTORY IN YOUR SRC DIRECTORY
+```
+  mkdir -p ~/simulate_ws/src
+```
+```
+  cd ~/simulate_ws
+```
+```
+  colcon build
+```
+```
+  cd src mkdir robot
+```
+```
+ cd robot git clone <................>
+```
+
 # Ros-2-simulated-robot.
 A ros 2 simulated robot(ROS 2)
 
