@@ -1,4 +1,3 @@
-# CLONE THE PACKAGE INTO THE ROBOT DIRECTORY LOCATED IN YOUR WORKSPACE.
 ```
   mkdir -p ~/simulate_ws/src
 ```
