@@ -6,8 +6,7 @@
   cd ~/simulate_ws
 ```
 ```
-  colcon build
-```
+  colcon build 
 ```
   cd src mkdir robot
 ```
