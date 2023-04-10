@@ -13,7 +13,7 @@
  cd robot git clone <................>
 ```
 
-# Ros-2-simulated-robot.
+ Ros-2-simulated-robot.
 A ros 2 simulated robot(ROS 2)
 
 NOTE: You can also use a cad design software(FUSION 360, SOLIDWORKS......) to design the robot and export to ROS  and also ROS 2,but this is just a repository that describes how to design a robot manually, by writing .xacro files which are said to be robot meshes.
