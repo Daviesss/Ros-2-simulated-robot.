@@ -1,4 +1,6 @@
-# Ros-2-simulated-robot.
+
+
+ # Ros-2-simulated-robot.
 A ros 2 simulated robot(ROS 2)
 
 NOTE: You can also use a cad design software(FUSION 360, SOLIDWORKS......) to design the robot and export to ROS  and also ROS 2,but this is just a repository that describes how to design a robot manually, by writing .xacro files which are said to be robot meshes.
@@ -108,6 +110,20 @@ Run the slam_toolbox node.
 [Screencast from 03-09-2023 11:21:33 AM.webm](https://user-images.githubusercontent.com/97457075/224001965-dfaaf7e7-9660-437a-94b4-5b78740142ad.webm)
 
 # AUTONOMOUS NAVIGATION:
+ Localization:
+ ```
+    ros2 launch robot localization.launch.py map:=/home/magnum/simuate_ws/src/robot/maps/offline.yaml  use_sim_time:=true
+```
+But if you want to use the localization mode (AMCL) you have to specify the path in which your map.yaml file is located and pass it into map:=""
+
+-  ros2 launch robot localization.launch.py map:=""   use_sim_time:=true
+
+Navigation Mode(NAV2 stack)
+```
+   ros2 launch  robot nav.launch.py use_sim_time:=true map_subscribe_transient_local:true
+```
+  
+  
 [Screencast from 03-11-2023 05:26:36 PM.webm](https://user-images.githubusercontent.com/97457075/224503398-5ea5fe0c-618a-463e-9fa6-b0f82840eb19.webm)
 
 
