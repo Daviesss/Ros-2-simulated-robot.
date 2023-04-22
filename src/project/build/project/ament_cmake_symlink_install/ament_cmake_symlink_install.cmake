@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "project" "move" "DESTINATION" "lib/project")
+# install("TARGETS" "project" "move" "sub" "avoid_obstacle" "DESTINATION" "lib/project")
 include("/home/magnum/simuate_ws/src/robot/src/project/build/project/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/magnum/simuate_ws/src/robot/src/project/build/project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

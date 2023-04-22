@@ -223,6 +223,56 @@ move/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
 .PHONY : move/fast
 
+#=============================================================================
+# Target rules for targets named sub
+
+# Build rule for target.
+sub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sub
+.PHONY : sub
+
+# fast build rule for target.
+sub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/build
+.PHONY : sub/fast
+
+#=============================================================================
+# Target rules for targets named avoid_obstacle
+
+# Build rule for target.
+avoid_obstacle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 avoid_obstacle
+.PHONY : avoid_obstacle
+
+# fast build rule for target.
+avoid_obstacle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoid_obstacle.dir/build.make CMakeFiles/avoid_obstacle.dir/build
+.PHONY : avoid_obstacle/fast
+
+src/avoid_obstacle.o: src/avoid_obstacle.cpp.o
+.PHONY : src/avoid_obstacle.o
+
+# target to build an object file
+src/avoid_obstacle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoid_obstacle.dir/build.make CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o
+.PHONY : src/avoid_obstacle.cpp.o
+
+src/avoid_obstacle.i: src/avoid_obstacle.cpp.i
+.PHONY : src/avoid_obstacle.i
+
+# target to preprocess a source file
+src/avoid_obstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoid_obstacle.dir/build.make CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.i
+.PHONY : src/avoid_obstacle.cpp.i
+
+src/avoid_obstacle.s: src/avoid_obstacle.cpp.s
+.PHONY : src/avoid_obstacle.s
+
+# target to generate assembly for a file
+src/avoid_obstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoid_obstacle.dir/build.make CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.s
+.PHONY : src/avoid_obstacle.cpp.s
+
 src/drive_straight.o: src/drive_straight.cpp.o
 .PHONY : src/drive_straight.o
 
@@ -271,6 +321,30 @@ src/pub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/pub.cpp.s
 .PHONY : src/pub.cpp.s
 
+src/sub.o: src/sub.cpp.o
+.PHONY : src/sub.o
+
+# target to build an object file
+src/sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/src/sub.cpp.o
+.PHONY : src/sub.cpp.o
+
+src/sub.i: src/sub.cpp.i
+.PHONY : src/sub.i
+
+# target to preprocess a source file
+src/sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/src/sub.cpp.i
+.PHONY : src/sub.cpp.i
+
+src/sub.s: src/sub.cpp.s
+.PHONY : src/sub.s
+
+# target to generate assembly for a file
+src/sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/src/sub.cpp.s
+.PHONY : src/sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +360,22 @@ help:
 	@echo "... test"
 	@echo "... project_uninstall"
 	@echo "... uninstall"
+	@echo "... avoid_obstacle"
 	@echo "... move"
 	@echo "... project"
+	@echo "... sub"
+	@echo "... src/avoid_obstacle.o"
+	@echo "... src/avoid_obstacle.i"
+	@echo "... src/avoid_obstacle.s"
 	@echo "... src/drive_straight.o"
 	@echo "... src/drive_straight.i"
 	@echo "... src/drive_straight.s"
 	@echo "... src/pub.o"
 	@echo "... src/pub.i"
 	@echo "... src/pub.s"
+	@echo "... src/sub.o"
+	@echo "... src/sub.i"
+	@echo "... src/sub.s"
 .PHONY : help
 
 

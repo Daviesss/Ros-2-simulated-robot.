@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/magnum/simuate_ws/src/robot/src/project/build/project
 # The main recursive "all" target.
 all: CMakeFiles/project.dir/all
 all: CMakeFiles/move.dir/all
+all: CMakeFiles/sub.dir/all
+all: CMakeFiles/avoid_obstacle.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/project_uninstall.dir/clean
 clean: CMakeFiles/project.dir/clean
 clean: CMakeFiles/move.dir/clean
+clean: CMakeFiles/sub.dir/clean
+clean: CMakeFiles/avoid_obstacle.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +141,7 @@ CMakeFiles/project_uninstall.dir/clean:
 CMakeFiles/project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=3,4 "Built target project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=5,6 "Built target project"
 .PHONY : CMakeFiles/project.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +167,7 @@ CMakeFiles/project.dir/clean:
 CMakeFiles/move.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=1,2 "Built target move"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=3,4 "Built target move"
 .PHONY : CMakeFiles/move.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +185,58 @@ move: CMakeFiles/move.dir/rule
 CMakeFiles/move.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/clean
 .PHONY : CMakeFiles/move.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sub.dir
+
+# All Build rule for target.
+CMakeFiles/sub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=7,8 "Built target sub"
+.PHONY : CMakeFiles/sub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles 0
+.PHONY : CMakeFiles/sub.dir/rule
+
+# Convenience name for target.
+sub: CMakeFiles/sub.dir/rule
+.PHONY : sub
+
+# clean rule for target.
+CMakeFiles/sub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/clean
+.PHONY : CMakeFiles/sub.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/avoid_obstacle.dir
+
+# All Build rule for target.
+CMakeFiles/avoid_obstacle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoid_obstacle.dir/build.make CMakeFiles/avoid_obstacle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoid_obstacle.dir/build.make CMakeFiles/avoid_obstacle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=1,2 "Built target avoid_obstacle"
+.PHONY : CMakeFiles/avoid_obstacle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/avoid_obstacle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/avoid_obstacle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles 0
+.PHONY : CMakeFiles/avoid_obstacle.dir/rule
+
+# Convenience name for target.
+avoid_obstacle: CMakeFiles/avoid_obstacle.dir/rule
+.PHONY : avoid_obstacle
+
+# clean rule for target.
+CMakeFiles/avoid_obstacle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoid_obstacle.dir/build.make CMakeFiles/avoid_obstacle.dir/clean
+.PHONY : CMakeFiles/avoid_obstacle.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

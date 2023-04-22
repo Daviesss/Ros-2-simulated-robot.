@@ -1,1 +1,1 @@
-rclcpp;geometry_msgs;ament_lint_auto;ament_lint_common
+rclcpp;geometry_msgs;sensor_msgs;ament_lint_auto;ament_lint_common

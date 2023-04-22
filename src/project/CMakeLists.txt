@@ -21,18 +21,25 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 add_executable(project src/pub.cpp)
 add_executable(move src/drive_straight.cpp)
+add_executable(sub src/sub.cpp)
+add_executable(avoid_obstacle src/avoid_obstacle.cpp)
 
 
 ament_target_dependencies(project rclcpp geometry_msgs)
 ament_target_dependencies(move rclcpp geometry_msgs)
+ament_target_dependencies(sub rclcpp geometry_msgs)
+ament_target_dependencies(avoid_obstacle rclcpp geometry_msgs)
 
 
 install(TARGETS
     project
     move
+    sub
+    avoid_obstacle
     DESTINATION lib/${PROJECT_NAME}
 )
 ####################################################
