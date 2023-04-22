@@ -1,4 +1,5 @@
 /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/project
+/home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/move
 /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/package_run_dependencies/project
 /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/parent_prefix_path/project
 /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/ament_prefix_path.sh

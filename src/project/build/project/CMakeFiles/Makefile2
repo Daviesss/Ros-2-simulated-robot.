@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/magnum/simuate_ws/src/robot/src/project/build/project
 
 # The main recursive "all" target.
 all: CMakeFiles/project.dir/all
+all: CMakeFiles/move.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/project_uninstall.dir/clean
 clean: CMakeFiles/project.dir/clean
+clean: CMakeFiles/move.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/project_uninstall.dir/clean:
 CMakeFiles/project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=1,2 "Built target project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=3,4 "Built target project"
 .PHONY : CMakeFiles/project.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ project: CMakeFiles/project.dir/rule
 CMakeFiles/project.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/clean
 .PHONY : CMakeFiles/project.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move.dir
+
+# All Build rule for target.
+CMakeFiles/move.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles --progress-num=1,2 "Built target move"
+.PHONY : CMakeFiles/move.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles 0
+.PHONY : CMakeFiles/move.dir/rule
+
+# Convenience name for target.
+move: CMakeFiles/move.dir/rule
+.PHONY : move
+
+# clean rule for target.
+CMakeFiles/move.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/clean
+.PHONY : CMakeFiles/move.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

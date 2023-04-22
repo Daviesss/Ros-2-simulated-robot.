@@ -210,6 +210,43 @@ project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
 .PHONY : project/fast
 
+#=============================================================================
+# Target rules for targets named move
+
+# Build rule for target.
+move: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move
+.PHONY : move
+
+# fast build rule for target.
+move/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
+.PHONY : move/fast
+
+src/drive_straight.o: src/drive_straight.cpp.o
+.PHONY : src/drive_straight.o
+
+# target to build an object file
+src/drive_straight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/src/drive_straight.cpp.o
+.PHONY : src/drive_straight.cpp.o
+
+src/drive_straight.i: src/drive_straight.cpp.i
+.PHONY : src/drive_straight.i
+
+# target to preprocess a source file
+src/drive_straight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/src/drive_straight.cpp.i
+.PHONY : src/drive_straight.cpp.i
+
+src/drive_straight.s: src/drive_straight.cpp.s
+.PHONY : src/drive_straight.s
+
+# target to generate assembly for a file
+src/drive_straight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/src/drive_straight.cpp.s
+.PHONY : src/drive_straight.cpp.s
+
 src/pub.o: src/pub.cpp.o
 .PHONY : src/pub.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... project_uninstall"
 	@echo "... uninstall"
+	@echo "... move"
 	@echo "... project"
+	@echo "... src/drive_straight.o"
+	@echo "... src/drive_straight.i"
+	@echo "... src/drive_straight.s"
 	@echo "... src/pub.o"
 	@echo "... src/pub.i"
 	@echo "... src/pub.s"

@@ -23,11 +23,16 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 add_executable(project src/pub.cpp)
+add_executable(move src/drive_straight.cpp)
+
+
 ament_target_dependencies(project rclcpp geometry_msgs)
+ament_target_dependencies(move rclcpp geometry_msgs)
 
 
 install(TARGETS
     project
+    move
     DESTINATION lib/${PROJECT_NAME}
 )
 ####################################################
