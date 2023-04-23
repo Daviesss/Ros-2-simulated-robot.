@@ -1,0 +1,82 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f24ce234e50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f24ce234e50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f24ce23f400>)
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.117s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'visual_marker_obstacle_detector'
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.149s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/foxy
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'cmake_target' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'visual_marker_obstacle_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.202s] DEBUG:colcon.colcon_core.verb:Building package 'visual_marker_obstacle_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector', 'merge_install': False, 'path': '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector', 'symlink_install': False, 'test_result_base': None}
+[0.203s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.207s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector' with build type 'ament_cmake'
+[0.207s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector'
+[0.210s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector -- -j8 -l8
+[2.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector -- -j8 -l8
+[2.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_marker_obstacle_detector)
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector' for CMake module files
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector' for CMake config files
+[2.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_marker_obstacle_detector', 'cmake_prefix_path')
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/hook/cmake_prefix_path.ps1'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/hook/cmake_prefix_path.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/hook/cmake_prefix_path.sh'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/bin'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/lib/pkgconfig/visual_marker_obstacle_detector.pc'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/lib/python3.8/site-packages'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/bin'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/package.ps1'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/package.dsv'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/package.sh'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/package.bash'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/visual_marker_obstacle_detector/package.zsh'
+[2.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/visual_marker_obstacle_detector/share/colcon-core/packages/visual_marker_obstacle_detector)
+[2.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.776s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.783s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.795s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/local_setup.ps1'
+[2.799s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/_local_setup_util_ps1.py'
+[2.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/setup.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/local_setup.sh'
+[2.803s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/_local_setup_util_sh.py'
+[2.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/setup.sh'
+[2.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/local_setup.bash'
+[2.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/setup.bash'
+[2.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/local_setup.zsh'
+[2.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/install/setup.zsh'

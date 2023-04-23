@@ -1,0 +1,9 @@
+[0.018s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector -- -j8 -l8
+[0.050s] [ 50%] [32m[1mLinking CXX executable visual_marker_detector[0m
+[0.084s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.084s] (.text+0x24): undefined reference to `main'
+[0.084s] collect2: error: ld returned 1 exit status
+[0.085s] make[2]: *** [CMakeFiles/visual_marker_detector.dir/build.make:159: visual_marker_detector] Error 1
+[0.085s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visual_marker_detector.dir/all] Error 2
+[0.085s] make: *** [Makefile:146: all] Error 2
+[0.086s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector -- -j8 -l8

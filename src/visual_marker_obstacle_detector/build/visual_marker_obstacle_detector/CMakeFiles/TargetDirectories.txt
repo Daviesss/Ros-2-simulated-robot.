@@ -1,0 +1,10 @@
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/uninstall.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/visual_marker_obstacle_detector_uninstall.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/visual_marker_detector.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/test.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/edit_cache.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/rebuild_cache.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/list_install_components.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/install.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/install/local.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker_obstacle_detector/build/visual_marker_obstacle_detector/CMakeFiles/install/strip.dir
