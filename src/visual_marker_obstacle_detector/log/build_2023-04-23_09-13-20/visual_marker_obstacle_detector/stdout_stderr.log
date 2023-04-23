@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/visual_marker_detector.dir/src/visual_marker.cpp.o[0m
-[100%] [32m[1mLinking CXX executable visual_marker_detector[0m
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x24): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/visual_marker_detector.dir/build.make:159: visual_marker_detector] Error 1
-make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visual_marker_detector.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2
