@@ -10,6 +10,7 @@
 #include "tf2_ros/buffer.h"
 #include "tf2_ros/transform_listener.h"
 #include "rclcpp/duration.hpp"
+// #include "tf2_"
 
 
 namespace visual_marker{
@@ -37,6 +38,7 @@ namespace visual_marker{
             visualization_msgs::msg::Marker mark;
             sensor_msgs::msg::LaserScan::UniquePtr distance;
             geometry_msgs::msg::Point point_start,end;
+            float threshold = 2.0;
             
         };
 

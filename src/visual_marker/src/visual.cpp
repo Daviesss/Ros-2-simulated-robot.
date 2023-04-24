@@ -4,7 +4,8 @@
 
 namespace  visual_marker{
     using std::placeholders::_1;
-        visual::visual() : Node("Visual_markers_node"){
+        visual::visual() : Node("Visual_markers_node")
+        {
             vel_pub = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel",10);
             scan_sub = this->create_subscription<sensor_msgs::msg::LaserScan>("/scan",10,std::bind(&visual::laser_callback,this,_1));
             marker = this->create_publisher<visualization_msgs::msg::Marker>("/Rviz_marker",10);
@@ -56,8 +57,8 @@ namespace  visual_marker{
            marker->publish(mark);
         }
 
-        else if (distance == nullptr){
-            return;  //do nothing
+        else {
+           return;
         }
     }
 }//namespace visual_marker
