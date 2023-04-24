@@ -35,7 +35,7 @@ namespace  visual_marker{
            mark.header.stamp = now();
            mark.type = visualization_msgs::msg::Marker::ARROW;//set the marker arrow 
            mark.type = visualization_msgs::msg::Marker::ADD;
-           mark.lifetime =rclcpp::Duration(1s);
+           mark.lifetime =rclcpp::Duration(5s);
         
            //Arrow marker points
            point_start.x = 0.0;
@@ -54,6 +54,10 @@ namespace  visual_marker{
            mark.scale.z = 0.1;
 
            marker->publish(mark);
+        }
+
+        else if (distance == nullptr){
+            return;  //do nothing
         }
     }
 }//namespace visual_marker
