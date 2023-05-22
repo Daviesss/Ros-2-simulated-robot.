@@ -7,6 +7,21 @@ NOTE: You can also use a cad design software(FUSION 360, SOLIDWORKS......) to de
 
 Fisrt step in building the differential-drive robot:
 
+In the src directory of your workspace , make a folder called "robot" and clone the repo in it.
+
+```
+  cd src
+```
+```
+  mkdir robot 
+```
+```
+  cd robot 
+```
+```
+  git clone 
+```
+
 Launch the Node:
 ```
   ros2 launch <name_of_package> robot.launch.py
