@@ -19,8 +19,9 @@ In the src directory of your workspace , make a folder called "robot" and clone 
   cd robot 
 ```
 ```
-  git clone 
+  git clone https://github.com/Daviesss/Ros-2-simulated-robot..git
 ```
+
 
 Launch the Node:
 ```
