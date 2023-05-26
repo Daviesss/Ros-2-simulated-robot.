@@ -53,7 +53,7 @@ STEPS TO TAKE TO GET THE ROBOT UP AND READY:
 
 Set the sim time to true,we dealing with simulation.So our the boolean has to be true.
 ```
-   ros2 launch robot robot.launch.py use_sim_time:=true
+   ros2 launch robot show.robot.launch.py use_sim_time:=true
 ```
 Start up Gazebo:
 ```
