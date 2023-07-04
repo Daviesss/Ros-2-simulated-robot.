@@ -55,7 +55,7 @@ Set the sim time to true,we dealing with simulation.So our the boolean has to be
 ```
    ros2 launch robot show.robot.launch.py use_sim_time:=true
 ```
-Start up Gazebo:
+Start up Gazebo empty world:
 ```
    ros2 launch gazebo_ros gazebo.launch.py 
 ```
