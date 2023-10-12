@@ -19,7 +19,14 @@ In the src directory of your workspace , make a folder called "robot" and clone 
 ```
   git clone https://github.com/Daviesss/Ros-2-simulated-robot..git
 ```
-
+If you build the workspace and you see some errors pop up .You should upgrade pytest to a version that is 6.2 or higher. Use the following command
+```
+  pip install --upgrade pytest
+```
+Then build the workspace again:
+```
+  colcon build
+```
 
 Launch the Node:
 ```
